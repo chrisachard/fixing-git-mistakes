@@ -1,0 +1,43 @@
+
+== Commands Cheatsheet ==
+
+git log --oneline --graph
+
+git reflog --all
+
+git branch -vv
+
+
+git commit --amend --no-edit
+
+
+git push --set-upstream origin my-branch
+
+git push --delete origin my-branch
+
+
+git diff HEAD^1 HEAD
+
+
+git reset myfile.txt
+
+git reset [TO-HASH] (--mixed --soft --hard)
+
+
+git revert [HASH]
+
+
+git remote prune origin
+
+git branch -d local-branch
+
+
+git cherry-pick [HASH]
+
+
+git rebase master
+
+git rebase -i HEAD~2
+
+
+
